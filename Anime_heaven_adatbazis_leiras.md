@@ -59,7 +59,7 @@ Felhasználói listák (pl. kedvencek, megnézendők) típusa és az azokhoz tar
 ---
 
 ## Technikai megjegyzések
-0
 - **Karakterkészlet:** `utf8mb4` (magyar collate: `utf8mb4_hungarian_ci`)
 - **Enum típusok:** A táblákban enumok vannak (pl. `statusz`, `tipus`, `besorolas`) — egyszerűsíti az alkalmazás logikát, de rugalmatlanabb bővítésnél
 - **Egyedi email:** A `profil_adatlap.email` egyedi indexelt (UNIQUE), így egy email csak egyszer szerepelhet
+
